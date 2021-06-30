@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <section className="App-content">
-        <Link to="/gif/chevy">Gifs de chevy</Link>
+        <Link to="/gif/musica">Gifs de musica</Link>
         <Link to="/gif/gato">Gifs de gatos</Link>
         <Link to="/gif/perros">Gifs de perros</Link>
         <Route component={ListOfGifs} path="/gif/:keyword" />
